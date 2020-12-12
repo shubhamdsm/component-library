@@ -3,6 +3,7 @@
 
 :root{
     --primary-color:#7C3AED;
+    --dark-gray:#6B7280;
 }
 body{
     font-family: 'Montserrat',sans-serif;
@@ -80,4 +81,20 @@ hr{
 }
 .navigation .link-active{
     font-weight: bold;
+}
+
+
+/* header */
+
+.hero{
+    padding: 2rem;
+}
+.hero-img{
+    display: block;
+    margin: auto;
+    max-width: 350px
+    ;
+}
+.hero-heading{
+    color: var(--dark-gray);
 }
